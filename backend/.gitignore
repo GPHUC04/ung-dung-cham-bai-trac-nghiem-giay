@@ -1,0 +1,20 @@
+# Bỏ qua các thư mục và file không cần track
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Alembic generated (nhưng vẫn track versions/)
+alembic/versions/*.pyc
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage

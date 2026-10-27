@@ -1,0 +1,21 @@
+{
+  "venvPath": "backend",
+  "venv": "venv",
+  "extraPaths": [
+    "backend",
+    "backend/venv/lib/python3.9/site-packages"
+  ],
+  "pythonPath": "backend/venv/bin/python",
+  "pythonVersion": "3.9",
+  "executionEnvironments": [
+    {
+      "root": "backend",
+      "extraPaths": [
+        "backend",
+        "backend/venv/lib/python3.9/site-packages"
+      ],
+      "pythonPath": "backend/venv/bin/python",
+      "pythonVersion": "3.9"
+    }
+  ]
+}
